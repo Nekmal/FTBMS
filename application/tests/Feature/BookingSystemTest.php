@@ -325,8 +325,8 @@ class BookingSystemTest extends TestCase
 
         $response = $this->actingAs($admin)->get('/admin/reports');
         $response->assertStatus(200);
-        $response->assertSee('Sales & Occupancy Reports');
         $response->assertSee('Net Revenue (LKR)');
+        $response->assertSee('Branch Occupancy');
     }
 }
 
