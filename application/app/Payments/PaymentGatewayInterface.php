@@ -10,3 +10,4 @@ interface PaymentGatewayInterface
 
     public function verify(string $transactionReference): PaymentResult;
 }
+

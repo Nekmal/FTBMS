@@ -40,3 +40,4 @@ class ShowtimePolicy
         return $user->hasRole('CINEMA_MANAGER', $cinemaId);
     }
 }
+

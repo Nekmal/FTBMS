@@ -34,3 +34,4 @@ class CinemaPolicy
         return $user->isAdmin();
     }
 }
+

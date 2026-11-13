@@ -27,3 +27,4 @@ class PaymentResult
         return new self(false, 'PENDING', $reference, $message, $payload);
     }
 }
+

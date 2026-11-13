@@ -33,3 +33,4 @@ class RoleMiddleware
         abort(403, 'Unauthorized action for your role.');
     }
 }
+

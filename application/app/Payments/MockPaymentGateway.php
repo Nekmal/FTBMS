@@ -44,3 +44,4 @@ class MockPaymentGateway implements PaymentGatewayInterface
         return PaymentResult::success($transactionReference, 'Transaction verified.');
     }
 }
+
