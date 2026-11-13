@@ -42,3 +42,4 @@ class Seat extends Model
         return "{$this->row_label}{$this->seat_number}";
     }
 }
+

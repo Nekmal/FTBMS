@@ -41,3 +41,4 @@ class Ticket extends Model
         return $this->status === 'ISSUED';
     }
 }
+

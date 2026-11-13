@@ -50,3 +50,4 @@ class Promotion extends Model
         return min($amountMinor, $this->discount_value);
     }
 }
+

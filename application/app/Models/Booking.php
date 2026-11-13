@@ -80,3 +80,4 @@ class Booking extends Model
         return 'Rs. ' . number_format($this->total_minor / 100, 2);
     }
 }
+

@@ -36,3 +36,4 @@ class Cinema extends Model
         return $this->hasMany(UserRole::class);
     }
 }
+

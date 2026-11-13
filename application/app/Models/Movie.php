@@ -52,3 +52,4 @@ class Movie extends Model
         return $query->where('status', 'COMING_SOON');
     }
 }
+

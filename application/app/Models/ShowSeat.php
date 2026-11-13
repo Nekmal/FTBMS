@@ -60,3 +60,4 @@ class ShowSeat extends Model
         return false;
     }
 }
+

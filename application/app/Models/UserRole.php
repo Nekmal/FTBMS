@@ -26,3 +26,4 @@ class UserRole extends Model
         return $this->belongsTo(Cinema::class);
     }
 }
+

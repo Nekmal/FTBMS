@@ -74,3 +74,4 @@ class Showtime extends Model
         return $price ? (int) $price->price_minor : 100000; // default 1000 LKR
     }
 }
+

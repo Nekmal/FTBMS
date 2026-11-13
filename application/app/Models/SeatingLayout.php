@@ -34,3 +34,4 @@ class SeatingLayout extends Model
         return $this->hasMany(Showtime::class, 'layout_id');
     }
 }
+

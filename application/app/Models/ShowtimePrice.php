@@ -33,3 +33,4 @@ class ShowtimePrice extends Model
         return 'Rs. ' . number_format($this->price_minor / 100, 2);
     }
 }
+

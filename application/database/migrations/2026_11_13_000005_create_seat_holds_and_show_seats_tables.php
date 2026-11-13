@@ -101,3 +101,4 @@ return new class extends Migration
         Schema::dropIfExists('seat_holds');
     }
 };
+

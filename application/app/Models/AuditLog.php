@@ -41,3 +41,4 @@ class AuditLog extends Model
         return $this->belongsTo(Cinema::class);
     }
 }
+

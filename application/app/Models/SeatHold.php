@@ -46,3 +46,4 @@ class SeatHold extends Model
         return $this->expires_at->isPast();
     }
 }
+
