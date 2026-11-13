@@ -25,6 +25,8 @@ use Tests\TestCase;
 
 class BookingSystemTest extends TestCase
 {
+    use RefreshDatabase;
+
     protected function setUp(): void
     {
         parent::setUp();
